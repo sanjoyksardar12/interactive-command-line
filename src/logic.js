@@ -17,7 +17,6 @@ const contactSchema = mongoose.Schema({
 });
 
 const Contact = mongoose.modelNames("Contact", contactSchema);
-console.info(Contact);
 const addContact = ( contact ) =>{
   console.info("Contact ==", contact);
   // Contact.create(contact, (err)=>{

@@ -1,4 +1,5 @@
 const program = require("commander");
+const { prompt } = require("inquirer");
 
 const { addContact, getContact } = require("./logic.js");
 
